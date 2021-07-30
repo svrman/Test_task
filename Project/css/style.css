@@ -1,0 +1,81 @@
+body {
+    background: url("../img/back.jpg");
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.5;
+    font-size: 18px;
+    margin: 0;
+}
+.card {
+    width: 300px;
+    height: 480px;
+
+    margin: 25px 190px;
+    background-color: #fff;
+    box-shadow: 0 5px 10px #ccc;
+    border-radius: 10px;
+    padding: 15px;
+}
+.card-photo {
+    display: block;
+    width: 230;
+    height: 270;
+
+    margin: 0pc auto;
+    border-radius: 50%;
+}
+.card-title {
+    font-size: 20px;
+    text-align: center;
+    color: rgb(19, 57, 138);
+}
+.card-text {
+    font-size: 14px;
+}
+.data1{
+    margin: 0pc;
+    margin-left: 6pc;
+}
+
+.table{
+    margin: -28pc 50pc 10pc 40pc;
+    border: 0.4pc solid blue;
+    width: 300;
+    height: 280;
+}
+.field{
+    clear: both;
+    text-align: center;
+  margin-top: -6pc;
+  margin-right: -2pc;
+}
+.field2{
+    clear: both;
+    text-align: center;
+    margin-top: -4.7pc;
+    margin-left: 40pc ;
+}
+label{
+    margin-left: 0pc;
+   cursor: default;
+}
+.click{
+    text-align: center;
+    margin-top: 3pc;
+    margin-left: 29pc;
+    margin-right: 29pc;
+    margin-bottom: 0pc;
+    background: #ccc;
+    font-size: 18px;
+}
+.hide{
+    width: 800px;
+    padding: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    color: rgb(5, 8, 8);
+    height: 60px;
+    margin: 0 auto;
+}
+.link{
+    color: rgb(19, 57, 138);
+}

@@ -1,0 +1,79 @@
+<!docktype html>
+<html lang ="ru">
+    <head>
+        <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+        <script>
+            $(function() {
+	$("#visible").click(function() {
+    $('#invisible').toggleClass("show");
+	  });  
+	});
+        </script>
+        <style>
+      .hide{display:none;}
+      .show{display:block;}
+        </style>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Сайт визитка</title>
+    </head>
+    <body>
+        <div class="card">
+            
+                <img class="card-photo" src ="img/roman_svityuk.jpeg"  alt ="Роман Свитюк">
+                <h1 class="card-title"> Роман Свитюк </h1>
+                <div class ="card-text">
+                    <p>
+                        Адрес: Челябинск
+                    </p>
+                    <p>
+                        Опыт работы: <u> 2018-2019: Проект Optimist</u> </p>
+                                     <u class="data1">2019-2020: Проект ХайBro</u> <p>
+                                     <u class="data1">2020-2021: ПГ Метран и Авито</u></p>
+                    </p>
+                    <p>
+                        Номер телефона: 89518036230
+                    </p>
+                </div>
+         </div>    
+         <table class="table" border="1" >
+            <caption><b>Таблица навыков</b></caption>
+            <tr>
+            <th>Уровень владения/навыки</th>
+            <th>MS Office</th>
+            <th>C++</th>
+            <th>Python</th>
+            <th>1С</th>
+            <th>English</th>
+            </tr>
+            <tr><td>Отличное  </td><td>Да</td><td>Нет</td><td>Нет</td><td>Нет</td><td>Да</td></tr>
+            <tr><td>Хорошее  </td><td>Нет</td><td>Нет</td><td>Нет</td><td>Да</td><td>Нет</td></tr>
+            <tr><td>Удовлетворительное </td><td>Нет</td><td>Нет</td><td>Да</td><td>Нет</td><td>Нет</td></tr>
+            <tr><td>Неудовлетворительное </td><td>Нет</td><td>Нет</td><td>Нет</td><td>Да</td><td>Нет</td> </tr>
+
+            </table>
+
+    </table>
+         
+         <div class="field">
+             <label for="tel">Телефон:<br></label><br>
+             <input  type="tel" name="telephone" placeholder ="+7(951) 803-62-30" size="30px" >  
+         </div>
+         <div class="field2">
+                <label  for="tel">Имя:<br></label><br>
+                <input  type="text" name="name" placeholder ="Роман" size="30px">
+        </div>  
+
+<p id="visible" class ="click"><b>Кликните сюда, чтобы узнать меня подробнее!</b>  
+<p align ="justify"id="invisible"class= "hide">
+    Здравствуйте, меня зовут Роман. В этом году  я закончил бакалавриат в ЮУрГУ по специальности «управление и информатика в технических системах».
+    Помимо обучения в вузе я запустил и администрировал несколько своих проектов, преимущественно в сфере развлечений:<br>
+    <b class ="link">Группа сообщество в ВК Optimist:</b>  <a href="https://vk.com/world_optimistic_society">https://vk.com/world_optimistic_society</a><br>
+
+    <b class ="link">Группа YouTube канала ХайBro:</b>  <a href="https://vk.com/xay_bro">https://vk.com/xay_bro</a><br>
+    Также создал продающее объявление на Авито, для продвижения услуг компании, связанной с металлоконструкциями:<br>
+    <b class ="link">Забор из Профнастила-на ваших условиях:</b>  <a href="https://www.avito.ru/chelyabinsk/predlozheniya_uslug/zabor_iz_profnastila-_na_vashih_usloviyah_2167095180">https://www.avito.ru/chelyabinsk/zabor</a><br>
+</p> 
+    </body>
+</html>
+ 
